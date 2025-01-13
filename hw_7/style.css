@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Regular"),
+      local("LexendPeta-Regular"),
+      url("./fonts/CeraPro-Regular.woff2") format("woff2"),
+      url("./fonts/CeraPro-Regular.woff") format("woff");
+      
+}
+
+.body{
+    margin:  auto;
+}
+
+.main{
+    margin: auto;
+    width: 1300px;
+    height: 1000px;
+    
+    /* background-color: aquamarine;  */
+}
+
+
+
+.menu-container {
+    overflow: hidden;
+    padding: 10px;
+    max-width: 800px;
+    height: 29px;
+    margin-left: 30px;
+     /* background-color: rgb(64, 26, 175);   */
+}
+
+
+.menu-items {
+    float: left;                 
+}
+
+
+.menu-item {
+    display: inline-block;       
+    margin-right: 10px;         
+    font-family: "Cera Pro"; 
+    /* background-color: blueviolet; */
+}
+
+
+.sorting {
+    float: right;
+    font-family: "Cera Pro";
+    /* background-color: blue;              */
+}
+
+
+.text{
+    color: black;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-weight: 700;
+    /* background-color: rgb(3, 238, 34); */
+    margin-left: 20px;
+}
+
+.plants {
+    margin-left:40px;
+    margin-top: 20px;
+}
+
+
+.choose{
+    width:310px ;
+    height: 500px;
+    /* background-color: rgba(251, 251, 251, 1); */
+    margin-top: -900px;
+    margin-left: 70px;
+}
+
+.plants a{
+    font-family: 'Cera Pro';
+    color: black;
+    line-height: 2.8;
+    font-weight: 700;
+    font-size: 15px;  
+}
+
+.banner{
+    max-width: 350px;
+    max-height: 470px;
+    /* background-color: rgba(251, 251, 251, 1); */
+    margin-left: 50px;
+}
+
+.img{
+    width: 310px;
+    height: 310px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.h1{
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 65px;
+    font-family: 'Cera Pro';
+    width: 350px;
+    margin-left: 20px;
+}
+
+.h2{
+    font-family: 'Cera Pro';
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.products{
+    width: 900px;
+    height: 900px;
+    /* background-color: brown; */
+    margin-top: 171px;
+    margin-left: 400px;
+    
+}
+
+.card{
+    width: 258px;
+    height: 260px;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.img1{
+    width: 258px;
+    height: 210px;
+    margin-top: 10px;
+   
+}
+
+.card p{
+    padding: 5px;
+    font-family: 'Cera Pro';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pagination {
+   margin-top: 50px;
+    margin-left: 700px;
+  }
+
+
+.page {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+
