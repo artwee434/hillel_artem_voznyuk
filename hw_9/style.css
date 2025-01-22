@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Regular"),
+      local("LexendPeta-Regular"),
+      url("./fonts/CeraPro-Regular.woff2") format("woff2"),
+      url("./fonts/CeraPro-Regular.woff") format("woff");
+      
+}
+
+
+
+.main{
+    margin: 0 auto;
+    width: 1300px;
+    height: 1000px;
+    
+    /* background-color: aquamarine;  */
+}
+
+
+
+.menu-container {
+    max-width: 1300px;
+    height: 29px;
+    
+     /* background-color: rgb(64, 26, 175);   */
+}
+
+
+.menu-items {
+    float: left;                 
+}
+
+
+.menu-item {
+    display: inline-block;       
+    margin-right: 10px;         
+    font-family: "Cera Pro"; 
+    /* background-color: blueviolet; */
+}
+
+
+.sorting {
+    float: right;
+    font-family: "Cera Pro";
+    /* background-color: blue;              */
+}
+
+
+.products{
+    width: 900px;
+    height: 900px;
+    /* background-color: brown; */
+    margin-top: 171px;
+    margin-left: 400px;
+    
+}
+
+.card{
+    width: 258px;
+    height: 260px;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 5px;
+    
+    
+}
+
+
+
+
+.img1{
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.card p{
+    padding: 5px;
+    font-family: 'Cera Pro';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.button{
+    position: relative;
+    top:260px;
+    left:45px;
+}
+
+.img11{
+    margin-left:20px;
+    fill: rgb(0, 0, 0);
+}
+
+.img11:hover{
+    fill: rgb(13, 255, 0);
+}
+
+.text{
+    position: relative;
+    width: 80px;
+    top: 40px;
+    border: 2px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.current-price {
+    color: green;
+    font-weight: bold;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through; 
+}
+
+.price{
+    display: flex;
+}
