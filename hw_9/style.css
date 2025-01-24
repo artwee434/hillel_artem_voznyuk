@@ -38,6 +38,10 @@
     font-family: "Cera Pro"; 
     /* background-color: blueviolet; */
 }
+.menu-item:hover{
+    color: rgb(13, 255, 0);
+    text-decoration: underline;
+}
 
 
 .sorting {
@@ -61,11 +65,14 @@
     height: 350px;
     margin-top: 10px;
     display: inline-block;
-    margin: 5px;
-    
-    
+    margin: 5px;    
     
 }
+
+.card:hover{
+    background-color: blue;
+}
+
 
 
 
@@ -93,15 +100,15 @@
 
 .button{
     position: absolute;
-    top:470px;
-    left:550px;
+    top:440px;
+    left:555px;
     
 }
 
 
 .button1{
     position: absolute;
-    top:470px;
+    top:440px;
     left:830px;
    
     
@@ -110,7 +117,7 @@
 
 .button2{
     position: absolute;
-    top:470px;
+    top:440px;
     left: 1100px;
     
 
@@ -128,7 +135,8 @@
 .text{
     position: relative;
     width: 80px;
-    top: 40px;
+    bottom: 245px;
+    right: 30px;
     border: 2px;
     background-color: green;
     color: white;
