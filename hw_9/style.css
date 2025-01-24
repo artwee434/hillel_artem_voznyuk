@@ -57,7 +57,7 @@
     /* background-color: brown; */
     margin-top: 171px;
     margin-left: 400px;
-    
+    margin: 0 auto;
 }
 
 .card{
@@ -66,7 +66,7 @@
     margin-top: 10px;
     display: inline-block;
     margin: 5px;    
-    
+    position: relative;
 }
 
 .card:hover{
@@ -100,26 +100,30 @@
 
 .button{
     position: absolute;
-    top:440px;
-    left:555px;
+    z-index: 10;
+    top:240px;
+    left: 45px;
+    display: flex;
     
 }
 
 
 .button1{
     position: absolute;
-    top:440px;
-    left:830px;
-   
+    z-index: 10;
+    top:240px;
+    left: 45px;
+    display: flex;
     
 
 }
 
 .button2{
     position: absolute;
-    top:440px;
-    left: 1100px;
-    
+    z-index: 10;
+    top:240px;
+    left: 45px;
+    display: flex;
 
 }
 
@@ -133,10 +137,10 @@
 }
 
 .text{
-    position: relative;
+    position: absolute;
     width: 80px;
-    bottom: 245px;
-    right: 30px;
+    bottom: 220px;
+    right: 70px;
     border: 2px;
     background-color: green;
     color: white;
