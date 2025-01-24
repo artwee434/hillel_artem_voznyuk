@@ -69,7 +69,9 @@
     
 }
 
-
+.card:hover{
+    border-top: 2px solid rgb(13, 255, 0);;
+}
 
 
 
