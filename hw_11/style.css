@@ -132,7 +132,7 @@
 
 .text-greenshop1{
     padding-top: 27px;
-    padding-left: 23px;
+    
     
 }
 
@@ -247,7 +247,7 @@
     height: 236px;
     /* background-color: rgb(226, 43, 67);  */
     align-items: center;
-    padding-left: 33px;
+    padding-left: 25px;
     padding-top: 25px;
     border-bottom: 4px solid rgba(70, 163, 89, 0.678);
     margin: 0 auto;
