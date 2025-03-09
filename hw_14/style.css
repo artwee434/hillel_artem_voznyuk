@@ -1,0 +1,158 @@
+.main {
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+}
+
+.featured-items {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 30px;
+  height: auto;
+  background-color: rgba(203, 195, 195, 0.186);
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  max-width: 285px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.item h3 {
+  font-size: 18px;
+  width: 170px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.item button {
+  background-color: #45a049;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item button:hover {
+  background-color: #368037;
+}
+
+.blog-posts {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.blog-posts h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.blog-posts p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.posts {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.post {
+  text-align: left;
+  width: 100%;
+  max-width: 268px;
+  height: auto;
+  padding: 15px;
+  background-color: rgba(203, 195, 195, 0.186);
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.post span {
+  font-size: 14px;
+  color: #4caf50;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.post h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.post p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.post a {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .featured-items {
+      flex-direction: column;
+      align-items: center;
+  }
+  .posts {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+      align-items: center;
+      text-align: center;
+  }
+  .item {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+      padding: 10px;
+  }
+  .blog-posts h2 {
+      font-size: 24px;
+  }
+  .blog-posts p {
+      font-size: 12px;
+  }
+}
