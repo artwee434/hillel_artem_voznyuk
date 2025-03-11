@@ -1,0 +1,88 @@
+.main{
+    margin: 0 auto;
+    width: 1440px;
+    height: 1858px;
+    background-color: rgb(191, 229, 95)
+}
+
+
+.header{
+    display: flex;
+    width: 1440px;
+    height: 116px;
+    background-color: black 
+}
+
+.banner{
+    width: 318px;
+    height: 60px;
+    background-color:rgb(246, 50, 10);
+    margin-left: 60px;
+    margin-top: 50px;   
+}
+
+.navigation{
+    display: flex;
+    width: 478px;
+    height: 66px;
+    background-color: aquamarine;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.frame1{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 478px;
+    height: 28px;
+    background-color: rgb(156, 156, 39);
+}
+
+.lang-choise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+    width: 30px; 
+    height: 25px; 
+    background-color: #e91e63; 
+    
+  }
+  
+  
+  .text {
+    font-size: 14px; 
+    color: white; 
+    font-weight: bold; 
+  }
+
+  .text-street{
+    color: rgba(179, 179, 186, 1);
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .text-number{
+    color: rgba(179, 179, 186, 1);
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .org{
+    width: 416px;
+    height: 25px;
+    background-color: rgb(29, 169, 169);
+    
+    
+  }
+
+
+
