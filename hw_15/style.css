@@ -22,6 +22,7 @@
 
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   width: 478px;
   height: 66px;
   background-color: aquamarine;
@@ -73,8 +74,27 @@
   font-size: 16px;
 }
 
-.org {
+.horizontal-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 416px;
   height: 25px;
-  background-color: rgb(29, 169, 169);
+  background-color: rgb(255, 0, 0);
+  margin-left: 50px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.list-navigation {
+  display: inline-block;
+  flex-wrap: nowrap;
+  list-style: none;
+  color: rgb(36, 163, 255);
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */

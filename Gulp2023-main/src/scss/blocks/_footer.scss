@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.footer{
+	display: flex;
+	justify-content:space-between ;
+	align-items: center;
+	max-width: 1440px;
+	height: 141px;
+	background-color: rgba(245, 245, 250, 1);
+}
+
+.contact-box{
+	display: flex;
+	max-width: 1320px;
+	height: 79px;
+	// background-color: lime;
+	
+}
+
+.contact{
+	max-width: 398px;
+	height: 79px;
+	display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-frame{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+
+.contact-street{
+	background-color: rgba(50, 50, 100, 1);
+	background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.map{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 100%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    background: rgba(36, 163, 255, 1);
+	background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-number{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.number-phone{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	
+	background: rgba(70, 70, 110, 1);
+	background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.contact-mail{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	background: rgba(36, 163, 255, 1);
+	background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+	
+}
+
+
+.footer-copyright{
+	display: flex;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0px;
+	background: rgba(179, 179, 186, 1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	
+}
